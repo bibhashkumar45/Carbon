@@ -1,0 +1,82 @@
+body {
+  background-color: #0A0C10;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+h2.comparison-heading12, h3.comparison-heading12 {
+  text-align: center;
+  color: #ffffff;
+}
+
+h1.comparison-heading12 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.5rem; /* Adjust size as needed */
+  margin-bottom: 20px;
+}
+
+.comparison-container12 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+  gap: 20px; /* Adds spacing between cards */
+  padding: 20px;
+}
+
+.chart-container12 {
+  background-color: #1F1F1F;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; /* Set a fixed width for each card */
+  margin: auto; /* Center the cards within the grid */
+}
+
+.pie-chart12, .bar-chart12 {
+  margin-top: 20px;
+  width: 100%; /* Ensures the charts take up the full width of the container */
+}
+
+.combined-comparison12 {
+  background-color: #292D3E;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 0 auto; /* Centers the component horizontally */
+  padding-left: 20px; /* Adds 20px of space on the left */
+  padding-right: 20px; /* Adds 20px of space on the right */
+  width: calc(100% - 40px);
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.combined-comparison12 h3 {
+  margin-bottom: 20px;
+  color: #E3E4E8;
+}
+
+/* Center the combined charts in the middle */
+.combined-charts12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between pie and bar chart */
+}
+
+/* Responsive behavior */
+@media (max-width: 900px) {
+  .comparison-container12 {
+      grid-template-columns: 1fr; /* Stacks cards vertically on smaller screens */
+    }
+}
+
+.comparision-heading{
+  color:white;
+}
